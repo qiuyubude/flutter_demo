@@ -39,3 +39,12 @@ app.*.symbols
 
 # Obfuscation related
 app.*.map.json
+
+# flutter configs
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build*
+.dart_tool/*
+.ios/*
+.android/*
