@@ -9,6 +9,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:demo/LiveModule/models/all_studio_list_model.dart';
 
 class LiveRoomList extends StatefulWidget {
+
   @override
   _LiveRoomListState createState() => _LiveRoomListState();
 }
