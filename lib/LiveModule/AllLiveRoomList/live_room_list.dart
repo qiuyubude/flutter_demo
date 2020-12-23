@@ -6,7 +6,6 @@ import 'package:doctor_site/public_methods.dart';
 import 'package:demo/LiveModule/AllLiveRoomList/living_widget.dart';
 import 'package:flutter_easyrefresh/easy_refresh.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-
 import 'package:demo/LiveModule/models/all_studio_list_model.dart';
 
 class LiveRoomList extends StatefulWidget {
