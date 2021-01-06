@@ -37,7 +37,7 @@ packages:
     source: hosted
     version: "2.5.0-nullsafety.1"
   azlistview:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: azlistview
       url: "https://pub.flutter-io.cn"
@@ -360,7 +360,7 @@ packages:
     source: hosted
     version: "0.11.4"
   lpinyin:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: lpinyin
       url: "https://pub.flutter-io.cn"

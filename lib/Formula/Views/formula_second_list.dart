@@ -7,7 +7,6 @@ import 'package:doctor_site/api.dart';
 import 'package:azlistview/azlistview.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import 'package:lpinyin/lpinyin.dart';
-import 'package:device_info/device_info.dart';
 
 class FormulaSecondList extends StatefulWidget {
   final FormulaListModel listModel;
@@ -318,7 +317,6 @@ class _FormulaSecondListState extends State<FormulaSecondList> {
   // iPhone X 系列底部安全区
   Widget iphoneBottomWidget(BuildContext context) {
     MediaQueryData mq = MediaQuery.of(context);
-    print(mq.padding.bottom);
     return Container(
       color: Colors.white,
       height: mq.padding.bottom,
