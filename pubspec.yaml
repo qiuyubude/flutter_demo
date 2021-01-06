@@ -32,18 +32,22 @@ dependencies:
   doctor_site:
       # git:
         path: '../PodsLib/doctor_site/'
+  # 吐司库     
   fluttertoast: ^7.1.6
   flutter_easyrefresh: ^2.1.6
   #神策SDK
   sensors_analytics_flutter_plugin: ^1.0.2 
-  
+ 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   json_serializable: ^3.2.5
   build_runner: ^1.8.0
   
-  
+  # Flutter 城市列表，联系人列表，索引&悬停 https://github.com/flutterchina/azlistview
+  azlistview: 1.1.0
+  # Dart 汉字转拼音 https://github.com/flutterchina/lpinyin
+  lpinyin: 1.0.7 
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
