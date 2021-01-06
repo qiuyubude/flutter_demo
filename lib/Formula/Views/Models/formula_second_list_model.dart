@@ -9,7 +9,9 @@ class FormulaSecondListModel extends ISuspensionBean {
   String name;
   String origin;
   String pinYin;
+  String pinYinTag;
   int status;
+  bool isShowLine;
   String style;
 
   FormulaSecondListModel(
@@ -21,7 +23,9 @@ class FormulaSecondListModel extends ISuspensionBean {
       this.name,
       this.origin,
       this.pinYin,
+      this.pinYinTag,
       this.status,
+      this.isShowLine,
       this.style});
 
   FormulaSecondListModel.fromJson(Map<String, dynamic> json) {
@@ -54,7 +58,4 @@ class FormulaSecondListModel extends ISuspensionBean {
 
   @override
   String getSuspensionTag() => pinYin;
-
-  @override
-  String toString() => "CityBean {" + " \"name\":\"" + name + "\"" + '}';
 }

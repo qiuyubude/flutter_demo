@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
         child: FlatButton(
           color: Colors.blue,
           onPressed: _jumpToFormulaSecondList,
-          child: Text('跳转医学公式二季页面'),
+          child: Text('跳转医学公式二级页面'),
           highlightColor: Colors.blue[700],
           colorBrightness: Brightness.dark,
           splashColor: Colors.grey,

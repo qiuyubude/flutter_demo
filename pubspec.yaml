@@ -37,7 +37,9 @@ dependencies:
   flutter_easyrefresh: ^2.1.6
   #神策SDK
   sensors_analytics_flutter_plugin: ^1.0.2 
- 
+  #设备信息库
+  device_info:
+    
 dev_dependencies:
   flutter_test:
     sdk: flutter
